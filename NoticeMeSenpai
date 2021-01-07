@@ -26,7 +26,7 @@ class NoticeMeSenpai {
         System.out.println("Enter 1 to Notice me Senpai! \nEnter 2 to See Underneath Senpai! \nDon't Enter 3 Senpai: ");
 
         int SenpaisChoice = HarderSenpai.nextInt();
-        while (SenpaisChoice < 0 && SenpaisChoice > 4) {
+        while (SenpaisChoice < 1 && SenpaisChoice > 3) {
 
             System.out.println("That's the Wrong Hole Senpai!");
             System.out.println("Enter Again!");
